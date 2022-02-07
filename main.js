@@ -12,7 +12,7 @@ function inUA(s){
 }
 
 if(inUA(wechat)){
-    window.location.href=wechatpayURL;
+    window.location.href="static/wechat.html";
 }else if(inUA(alipay)){
     window.location.href=alipayURL;
 }else if(inUA(qqBrowser)){
